@@ -40,7 +40,8 @@ public class MainActivity extends AppCompatActivity {
         m_webView.getSettings().setJavaScriptEnabled(true);
         m_webView.getSettings().setUseWideViewPort(true);
 //        m_webView.loadUrl("http://view.officeapps.live.com/op/view.aspx?src="+ URLEncoder.encode(wwUrl));
-        m_webView.loadUrl(url);
+//        m_webView.loadUrl(url);
 //        m_webView.loadUrl(softUrl);
+        m_webView.loadUrl("http://view.officeapps.live.com/op/view.aspx?src=newteach.pbworks.com%2Ff%2Fele%2Bnewsletter.docx");
     }
 }
